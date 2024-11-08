@@ -1,0 +1,9 @@
+﻿
+<div class="row">
+    @{
+        foreach (Ecommerceweb.Models.Customer p in Model)
+        {
+            <p>@p.FirstName @p.LastName @p.Id    </p>
+        }
+    }
+</div>

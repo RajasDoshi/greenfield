@@ -1,0 +1,9 @@
+﻿@using Catalog;
+
+<h2>Index</h2>
+@{
+    foreach (Catalog.Products p in @Model)
+    {
+        <p>@p.Name @p.Description  </p>
+    }
+}
